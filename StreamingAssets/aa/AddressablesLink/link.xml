@@ -1,24 +1,34 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AutoFitMask" preserve="all" />
+    <type fullname="BoostPanel" preserve="all" />
+    <type fullname="Code.UI.SafeAreaAdapter" preserve="all" />
     <type fullname="CoinItem" preserve="all" />
+    <type fullname="DailyTaskPanel" preserve="all" />
+    <type fullname="FlyMgr" preserve="all" />
     <type fullname="FUniversalPanel" preserve="all" />
     <type fullname="Game.XButton" preserve="all" />
     <type fullname="Game.XImage" preserve="all" />
     <type fullname="Game.XInput" preserve="all" />
     <type fullname="Game.XText" preserve="all" />
     <type fullname="GiantCoinItem" preserve="all" />
-    <type fullname="ItemPanel" preserve="all" />
+    <type fullname="LevelUpPanel" preserve="all" />
     <type fullname="LoginPanel" preserve="all" />
     <type fullname="Machine" preserve="all" />
     <type fullname="MainPanel" preserve="all" />
-    <type fullname="MenuPanel" preserve="all" />
+    <type fullname="OfflineRewardPanel" preserve="all" />
     <type fullname="RecycleChecker" preserve="all" />
+    <type fullname="ResInsufficientPopupPanel" preserve="all" />
+    <type fullname="RewardReissuePanel" preserve="all" />
+    <type fullname="RuleDescPanel" preserve="all" />
+    <type fullname="SettingPanel" preserve="all" />
     <type fullname="SouvenirHelpPanel" preserve="all" />
     <type fullname="SouvenirPanel" preserve="all" />
-    <type fullname="TaskPanel" preserve="all" />
     <type fullname="UIRoot" preserve="all" />
     <type fullname="WebGLSupport.WebGLInput" preserve="all" />
     <type fullname="WebGLSupport.WebGLInputMobile" preserve="all" />
+    <type fullname="XRed" preserve="all" />
+    <type fullname="GoodsPosInfo" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
@@ -45,6 +55,9 @@
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
@@ -65,10 +78,12 @@
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.TextAsset" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
@@ -87,6 +102,9 @@
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SpriteMask" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.TextCoreTextEngineModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.TextCore.Text.TextColorGradient" preserve="all" />
   </assembly>
@@ -99,10 +117,12 @@
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.Text" preserve="all" />
